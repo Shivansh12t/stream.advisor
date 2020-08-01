@@ -1,0 +1,156 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/* Top Navigation Bar */
+body{
+	background: grey;
+}
+.container-a{
+	max-width: 1200px;
+	margin: 0 auto;
+	/*border: 2px dashed grey;*/
+	background: rgb(41,42,43);
+}
+.logo-top{
+	float: left;
+}
+nav{
+	float: right;
+	margin-top: 19px;
+	margin-right: 10px;
+}
+nav ul li{
+	display: inline;
+	padding-right: 30px;
+}
+.nav-logo{
+	margin-top: 3px;
+}
+header{
+	background-color: rgb(41,42,43);
+}
+.header::after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+nav ul li a:hover{
+	color: red;
+}
+.nav-logo{
+	border-radius: 50%;
+}
+/*Top Navigation Bar end*/
+
+/*Sidebar*/
+
+.sidebar{
+	float: right;
+	width: 29.5%;
+	background-color: rgb(41,42,43);
+	height: 100%;
+	border: 3px solid black;
+}
+.sidebar ul li{
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	font-size: 20px;
+	padding: 2px;
+	color: lime;
+}
+.sidebar ul li a{
+	text-decoration: none;
+	color: white;
+	list-style-type: none;
+	text-align: center;
+}
+.sidebar h3{
+	color: lime;
+	text-align: center;
+}
+.sidebar ul li a:hover{
+	color: cyan;
+	font-size: 21px;
+}
+/*Sidebar end*/
+
+/*Content*/
+.container-b{
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.container-c{
+	width: 68%;
+	float: left;
+	/*border: 2px solid red;*/
+	background: rgb(41,42,43);
+	border: 3px solid black;
+	margin-bottom: 20px;
+}
+.content-text{
+	color: white;
+	font-size: 24px;
+}
+.content-text:hover{
+	color: yellow;
+}
+/*Picture*/
+.container-d{
+	clear: both;
+	display: inline;
+	width: 67%;
+}
+.container-d img{
+	width: 68%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 3px dashed black;
+}
+
+/*Unordered List*/
+
+.container-c h3{
+	color: lime;
+	font-size: 32px;
+}
+
+.container-c li{
+	list-style-type: none;
+	color: white;
+	font-size: 24px;
+}
+
+.container-c li:hover{
+	color: yellow;
+	font-size: 25px;
+}
+.myth-box{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+/*Copyright*/
+.foot{
+	content: "";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+.foot{
+	background: rgb(41,42,43);
+	text-align: center;
+	padding: 20px;
+	color: white;
+}
+.foot:hover{
+	color: red;
+}
